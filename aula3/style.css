@@ -1,0 +1,72 @@
+/* Tudo que estiver aqui dentro 
+é um comentário
+padding - ele dá um respiro/espaçamento interni.
+margin - ele dá um espaçamento externo
+R - red
+G - green
+B - blue
+hex - 0 - f
+
+*/
+body {
+    background-color: #ffea74;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    color: yellow;
+    padding: 50px;
+    border: 5px solid #8a2be2;
+}
+img {
+    width: 350px;
+    height: 350px;
+}
+
+section#introducao{
+    color: #8a2be2;
+}
+
+.lista {
+    text-decoration: none;
+}
+
+.secao2 {
+    background-color: blueviolet;
+    color: yellow;
+}
+
+.div1{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+.div2{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+}
+.par1{
+    background-color: blue;
+    
+
+}
+.par2{
+    background-color: yellow;
+
+}
+
+.titulo {
+    color: red;
+}
+
+.paragrafo {
+    color: black;
+}
