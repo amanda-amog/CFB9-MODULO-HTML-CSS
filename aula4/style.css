@@ -1,0 +1,82 @@
+* { /* seletor universal, aqui ele 'reseta'a minha página com margin, padding e border iguais a 0 */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.paragrafo-borda {
+    border: 5px solid #2c94a7; /* o primeiro valor é referente a grossura da linha, depois o estilo da linha e por fim a cor*/
+    text-align: center; /* centraliza o texto do parágrafo */
+    font-size: 2em; /* o tamanho da fonte(font-size) é igual a 32px -> 2em */
+}
+img {
+    margin-top: 20px;
+    border: 5px dotted #541f69;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+nav {
+    margin: 10px;
+}
+
+.navegacao {
+    margin: 100px;
+}
+
+#navegacao-id {
+    margin: 3.1em;
+}
+
+.exemploElemento {
+    width: 150px;
+    height: 150px;
+    color: #000000;
+    text-align: center;
+}
+.exemploElemento_primeiro{
+    background-color: #ff0000;
+    position: absolute; /* É criado um novo contexto e esse elemento se movimenta em relação a tela. */
+    bottom: 0;
+    right: 0;
+}
+.exemploElemento_segundo{
+    background-color: #7fffd4;
+    position: relative; /* esse elemento se movimenta em relação a sua própria posição na tela */
+    bottom: 300px;
+    left: 500px;
+    top: 100px;
+}
+.item1 {
+    background-color: #00ffff;
+}
+
+
+.article {
+    background-color: #ffff00 ;
+    overflow: hidden;
+}
+.exemploParagrafo {
+    clear: left;
+}
+
+.exemplo-lista {
+    text-align: center;
+}
+
+.exemplo_item{
+    width: 33.333%;
+    height: 150px;
+    display: inline; /* uma vez que voce colocou display inline o width e height não funcionam */
+}
+
+.exemplo_primeiro_item{
+    background-color: #a52a2a;
+}
+
+.exemplo_segundo_item{
+    background-color: #131074;
+}
+
+.exemplo_terceiro_item{
+    background-color: #0c583d;
+}
