@@ -48,9 +48,11 @@ Para o módulo I usaremos as seguintes tecnologias:
 
 ## `Apresentação da aula`
 
-- [link da apresentação de HTML](#)
+- [link da apresentação da Aula 1 - HTML]: (https://docs.google.com/presentation/d/1aJUtV5kX4Z9uSs2sJaaSr6SWktXCqK8zVfU3UZueul4/edit#slide=id.p)
+- [link da apresentação da Aula 2 - HTML]: (https://docs.google.com/presentation/d/1UKHCj3EWIMxfIcmwQcEscuRrjMuxl2NrBF_iWHsaA8w/edit#slide=id.g1e816fbf738_0_160)
 
-- [link da apresentação de CSS](#)
+
+- [link da apresentação das Aulas 3 e 4 - CSS](https://docs.google.com/presentation/d/15q5awnP1kDTbBS_Cf6mh0iwP0porDgvORcJ03nBMp6o/edit#slide=id.g28901bd5c3d_0_304)
 
 --- 
 <br>
