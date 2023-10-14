@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Loja Virtual</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="info-usuario">
+          <p>
+              <strong class="nome">Amanda Gregório</strong><br />
+              <small>Último login em: 06/10/2023 as 16h30</small>
+          </p>
+      </div>
+      <nav id="meu-id" class="navegacao-menu">
+          <ul class="lista-menu">
+              <li>
+                  <a href="#">
+                      <i class="fa-solid fa-house"></i>
+                      <strong>Início</strong>
+                  </a>
+              </li>
+              <li>
+                  <a href="#clientes">
+                      Nossos clientes
+                  </a>
+              </li>
+              <li>
+                  <a href="#pedidos">
+                      Pedidos
+                  </a>
+              </li>
+              <li>
+                  <a href="#faleConosco">
+                      Fale conosco
+                  </a>
+              </li>
+          </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="nova-colecao">
+        <div class="titulo-secao-colecao">
+            <h1>Nova coleção 2023</h1>
+            <h2>Ganhe <b>10%</b> off na 1º compra</h2>
+        </div>
+        
+        <ol>
+          <li>
+            <figure>
+              <img src="./img/1.jpg" alt="Imagem 1"/>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./img/2.jpg" alt="Imagem 2"/>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./img/3.jpg" alt="Imagem 3"/>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./img/4.jpg" alt="Imagem 4"/>
+            </figure>
+          </li>
+        </ol>
+        <a class="link-site" href="https://www.cea.com.br" target="_blank">Clique aqui para conferir</a>
+      </section>
+      <section class="secao-clientes" id="clientes">
+        <h3>
+          Nossos clientes
+        </h3>
+        <section class="secao-avaliacao">
+            <article>
+                <div class="div-avaliacao">
+                    <h4>Maria Pereira</h4>
+                    <small><i>Avaliado em: 06/10/2023</i></small>
+                    <p>
+                    Lorem skdlsakdlçsak dlçskd <br/>
+                    Lorem skdlsakdlçsak dlçskd <br/>
+                    Lorem skdlsakdlçsak dlçskd <br/>
+                    Lorem skdlsakdlçsak dlçskd 
+                    </p>
+                </div>
+            </article>
+            <article>
+                <h4>Maria Pereira</h4>
+                <h5><i>Avaliado em: 06/10/2023</i></h5>
+                <p>
+                  Lorem skdlsakdlçsak dlçskd <br/>
+                  Lorem skdlsakdlçsak dlçskd <br/>
+                  Lorem skdlsakdlçsak dlçskd <br/>
+                  Lorem skdlsakdlçsak dlçskd 
+                </p>
+            </article>
+            <article>
+                <h4>Maria Pereira</h4>
+                <h5><i>Avaliado em: 06/10/2023</i></h5>
+                <p>
+                  Lorem skdlsakdlçsak dlçskd <br/>
+                  Lorem skdlsakdlçsak dlçskd <br/>
+                  Lorem skdlsakdlçsak dlçskd <br/>
+                  Lorem skdlsakdlçsak dlçskd 
+                </p>
+            </article>
+        </section>
+        
+      </section>
+      <section class="secao-pedidos" id="pedidos">
+        <h3>
+            Meus Pedidos
+        </h3>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Produto</th>
+              <th>Quantidade</th>
+              <th>Valor (R$)</th>
+              <th>Data da compra</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Blusa</td>
+              <td>1</td>
+              <td>20,00</td>
+              <td>01/01/9999</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Vestido</td>
+              <td>1</td>
+              <td>20,00</td>
+              <td>01/01/9999</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Sapato</td>
+              <td>1</td>
+              <td>20,00</td>
+              <td>01/01/9999</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="secao-fale-conosco" id="faleConosco"> 
+        <h3>
+            Fale conosco
+        </h3>
+        <div>
+            <form>
+                <label>Nome</label>
+                <input type="text" id="nome" placeholder="Digite o seu nome"/>
+                <br/>
+
+                <label>Email</label>
+                <input type="email" id="emailPessoal" placeholder="Digite o seu email"/>
+                <br/>
+
+                <label>Mensagem</label>
+                <textarea id="mensagem"> </textarea>
+                <br/>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; Copyright | 2023 | Todos os direitos reservados 
+      </p>
+    </footer>
+  </body>
+</html>

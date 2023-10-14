@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.cabecalho {
+    background-color: #7C71FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+li {
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+}
+.info-usuario {
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+.nome {
+    text-transform: uppercase;
+}
